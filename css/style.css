@@ -1,0 +1,37 @@
+body{
+    width: 950px;
+    margin: auto;
+}
+.personalimg{
+    width: 385px;
+    height: 500px;
+    float: right;
+}
+div{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: #59a6fe;
+    height: 450px;
+}
+div h1{
+    font-size: 50px;
+}
+.hello{
+    font-size: 20px;
+    background-color: #8ecefe;
+    display: inline-block;
+}
+
+p{
+    font-size: 18px;
+    font-display: bold;
+}
+h2{
+    text-align: center;
+    margin-top: 15px;
+    background-color: #092b68;
+    color: white;
+    padding: 20px;
+}
+}
