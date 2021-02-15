@@ -51,3 +51,5 @@ if(petGuisse.toLowerCase() === 'yes' || petGuisse.toUpperCase() === 'Y'){
 else{
     alert ('  Thats Wrong :(     ,,,  i love cats    ^^ ');
 }
+
+alert ('thank you    '+ userName + '    you can Know alot about me now :) ');
