@@ -119,7 +119,7 @@ let seasonGiss = prompt('Do you think Summer is my favorite season ?  answer Y-N
         alert(' My Favourit food are :   Manssaf , Shawrmah , Msakhan , Maftool');
 
 
-        if(score>=4){
+        if(score>3){
         alert(' Excelent   your score is '+ score+' /7');
       }
       
