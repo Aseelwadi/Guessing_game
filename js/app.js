@@ -122,7 +122,7 @@ let seasonGiss = prompt('Do you think Summer is my favorite season ?  answer Y-N
         if(score>5){
         alert(' Excelent   your score is '+ score+' /7');
       }
-      else if(score>=4 && score==5){
+      else if(score ==4 || score==5){
         alert('  Good your score is '+ score+' /7');
       }
       else {
