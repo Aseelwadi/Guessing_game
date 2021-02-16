@@ -34,3 +34,25 @@ h2{
     color: white;
     padding: 20px;
 }
+
+.div2{
+    background-color: #cfcada;
+    /* text-align: center; */
+    /* font-size: medium; */
+    margin-top: 10px;
+    /* width: 300px; */
+    color: #333330;
+    font-size: 20px;
+    line-height: 38px;
+    padding: 26px;
+    height: auto;
+}
+
+ol{
+    padding-left: 70px;
+}
+.song{
+    width: 500px;
+    /* height: 397px; */
+    float: right;
+}
