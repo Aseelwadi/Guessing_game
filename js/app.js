@@ -25,6 +25,8 @@ alert('Welcome    '+userName +'    Are you ready to start game ⁉️ 🙂 ');
 
 let seasonGiss = prompt('Do you think Summer is my favorite season ❓  answer Y-N / Yes-No').toLowerCase();
 
+const qs1Function = function  (seasons)
+{  seasonGiss =seasons.toLowerCase ()
 while(!(seasonGiss === 'yes' ||seasonGiss === 'no' || seasonGiss === 'y'||seasonGiss === 'n'))
 {
 alert(" ⚠️ Invalid answer .. make sure you entered y-n or yes-no");
@@ -45,7 +47,9 @@ switch (seasonGiss){
           break;
 
 }
+}
 
+qs1Function (seasonGiss);
 
 
 let foodGuisse = prompt('Do you think I like Manssaf  ❓  answer Y-N /Yes-No').toLowerCase();;
