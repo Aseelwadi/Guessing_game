@@ -1,5 +1,5 @@
 
 # Partners:
 
-## Driver : Furat Malkawi
-## Navigator : Aseel Wadi
+## Driver : Furat Malkawi .
+## Navigator : Aseel Wadi .
