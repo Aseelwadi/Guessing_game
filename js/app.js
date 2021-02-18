@@ -7,12 +7,13 @@ while(userName === ''){
    userName = prompt('Enter your name please    🌸 ');
 }
 alert('Welcome    '+userName +'    Are you ready to start game ⁉️ 🙂 ');
+console.log ('Ask the user about his/her name ');
 }
 
 
 
 let seasonGiss = prompt('Do you think Summer is my favorite season ❓  answer Y-N / Yes-No').toLowerCase();
-
+console.log ('Ask the user about my favorit season --- the answer is NO/N ');
 const qs1Function = function  (seasons)
 {  seasonGiss =seasons.toLowerCase ()
 while(!(seasonGiss === 'yes' ||seasonGiss === 'no' || seasonGiss === 'y'||seasonGiss === 'n'))
@@ -26,6 +27,7 @@ switch (seasonGiss){
  case 'y'  :
     
     alert ('❌ No :(     ,,, My favorite season is Spring ^^ ');
+
     break;
      
  case 'no':
@@ -43,7 +45,8 @@ qs1Function (seasonGiss);
 
 
 
-let foodGuisse = prompt('Do you think I like Manssaf  ❓  answer Y-N /Yes-No').toLowerCase();;
+let foodGuisse = prompt('Do you think I like Manssaf  ❓  answer Y-N /Yes-No').toLowerCase();
+console.log ('Ask the user about if i like Manssaf --- the answer is NO/N ');
 const qs2Function = function  (food){
    foodGuisse =food.toLowerCase ()
 
@@ -76,6 +79,7 @@ qs2Function (foodGuisse);
 
 
 let subjectGuisse = prompt('Do you think Maths is my favorite subject  ❓  answer Y-N /Yes-No').toLowerCase();
+console.log ('Ask the user about Maths --- the answer is Yes/Y');
 const q3Function = function (subject){
    subjectGuisse =subject.toLowerCase();
 while(!(subjectGuisse === 'yes' ||subjectGuisse === 'no' || subjectGuisse === 'y'||subjectGuisse === 'n'))
@@ -104,6 +108,7 @@ q3Function (subjectGuisse);
 
 
 let personGuisse = prompt('Do you think My Mom is my favorit person   ❓  answer Y-N /Yes-No').toLowerCase();
+console.log ('Ask the user about My favorit person --- the answer is Yes/Y');
 const q4Function =function (person){
    personGuisse =person.toLowerCase();
 while(!(personGuisse ==='yes' ||personGuisse==='no' || personGuisse ==='y'||personGuisse ==='n'))
@@ -133,6 +138,7 @@ q4Function(personGuisse);
 
 
 let petGuisse = prompt('Do you think Cats is my favorit pet  ❓  answer Y-N /Yes-No').toLowerCase();
+console.log ('Ask the user about my favorit pet --- the answer is Yes/Y');
 const q5Function = function (pet){
    petGuisse = pet.toLowerCase();
 while(!(petGuisse === 'yes' ||petGuisse === 'no' || petGuisse === 'y'||petGuisse === 'n'))
@@ -160,8 +166,10 @@ q5Function(petGuisse);
 
 
 
+
 let numberGuess = prompt ('Now you Should Guess a number that i have written .. and you have just  4 attempts ');
-      for(var i=0 ; i<3 ;i++){
+console.log ('Ask the user to Guess My number -- it should be 20'); 
+for(var i=0 ; i<3 ;i++){
        
                    if (numberGuess == 20)
                    {  score++
@@ -176,11 +184,16 @@ let numberGuess = prompt ('Now you Should Guess a number that i have written .. 
                    else {
                        numberGuess =prompt (' your number is too Low  ... Try a gain'  );
                   }
-             
+            alert ("you'v finished the attempts  for this question :(  The answer was 20 " ); 
        }
-       alert ("you'v finished the attempts  for this question :(  The answer was 20 " );
+       
+
+
+
+
     
        let color =['white' , 'black' , 'green' , 'pink' ];
+       console.log ('Ask the color --- the answer white/black/green/pink');
               let correct = false;
               for(var i=0 ; i<6 ; i++)
               { 
