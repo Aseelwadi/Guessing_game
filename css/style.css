@@ -16,6 +16,10 @@ div{
 }
 div h1{
     font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 76 55 black;
+    color: #981240;
 }
 .hello{
     font-size: 20px;
@@ -25,7 +29,8 @@ div h1{
 
 p{
     font-size: 18px;
-    font-display: bold;
+    font-size: 18px;
+    font-family: monospace;
 }
 h2{
     text-align: center;
@@ -55,4 +60,14 @@ ol{
     width: 500px;
     /* height: 397px; */
     float: right;
+}
+
+html{
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    line-height: 28px;
+    font-family: sans-serif;
 }
